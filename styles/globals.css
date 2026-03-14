@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 0; background:#0b1020; color:#e7ecff; }
+.container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+.grid { display:grid; grid-template-columns: repeat(2, minmax(180px, 1fr)); gap:0.75rem; }
+a, button { background:#1f2a44; color:#e7ecff; padding:0.6rem 0.8rem; border-radius:8px; border:1px solid #415177; text-decoration:none; cursor:pointer; }
+table { width:100%; border-collapse:collapse; }
+th, td { border-bottom:1px solid #23304f; padding:0.5rem; text-align:left; }
+input, select, textarea { width:100%; margin:0.3rem 0; padding:0.45rem; background:#121a2f; color:#f0f4ff; border:1px solid #3e4d72; border-radius:6px; }
